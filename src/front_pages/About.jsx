@@ -7,7 +7,7 @@ function About() {
             top: 0,
             left: 0,
             backgroundImage:
-              "url(https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-6/485688967_1097409049097849_7218233140639595703_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ivGKTUELiV0Q7kNvgGoezEm&_nc_oc=AdmijPb0y6JP0nuH1EW9HDN4WtKYE5ZvrpWh-_8q_T6TfE2QyqAAAm2CYbCWUsztfBQ&_nc_zt=23&_nc_ht=scontent-tpe1-1.xx&_nc_gid=AAaz2HM_rYa-zidPGbardg&oh=00_AYHKYIgS4O9jDe4Wta2sH7UVGUd-VRC6zSVt-SWyOL_DKA&oe=67E5E7E4)",
+              "url(https://zastio.com/iris/sea/bg03.jpg",
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundAttachment: "fixed",
