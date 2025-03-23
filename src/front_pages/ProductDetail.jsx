@@ -176,10 +176,7 @@ function ProductDetail() {
               <div className="mb-2">
                 <h5 className="mt-3 h4 fw-bold fs-5">注意事項:</h5>
                 <ul className="mt-3">
-                  <li>為了確保旅程順利且安全，所有行程的報名人數需相同。</li>
-                  <li>
-                    報名前務必確認人數與行程內容，避免因人數不符影響旅遊計畫。
-                  </li>
+                  <li>請確認您的購買數量是否正確。</li>
                 </ul>
               </div>
             </div>
