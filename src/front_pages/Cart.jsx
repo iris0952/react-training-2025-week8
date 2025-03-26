@@ -123,6 +123,7 @@ function Cart() {
     try {
       await axios.delete(`${baseUrl}/api/${apiPath}/carts`);
       gettingCartList();
+      showSwal("已清空購物車");
     } catch (error) {
       showSwalError("清空購物車失敗", error.response?.data?.message);
     } finally {
@@ -136,6 +137,7 @@ function Cart() {
     try {
       await axios.delete(`${baseUrl}/api/${apiPath}/cart/${id}`);
       gettingCartList();
+      showSwal(`已刪除購物車商品`);
     } catch (error) {
       showSwalError("刪除購物車商品失敗", error.response?.data?.message);
     } finally {

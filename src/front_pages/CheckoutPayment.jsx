@@ -52,10 +52,10 @@ function CheckoutPayment() {
 
   // 表單驗證
   const {
-    register,
+    // register,
     handleSubmit,
     reset,
-    formState: { errors },
+    // formState: { errors },
   } = useForm({
     mode: "onTouched",
   });

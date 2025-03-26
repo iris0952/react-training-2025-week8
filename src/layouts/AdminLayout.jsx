@@ -21,7 +21,7 @@ function AdminLayout() {
   // 確認使用者是否已登入
   const checkingUserLogin = useCallback(() => {
     const token = document.cookie.replace(
-      /(?:(?:^|.*;\s*)hexToken\s*\=\s*([^;]*).*$)|^.*$/,
+      /(?:(?:^|.*;\s*)hexToken\s*\s*([^;]*).*$)|^.*$/,
       "$1"
     );
     axios.defaults.headers.common["Authorization"] = token;
